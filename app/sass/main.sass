@@ -110,6 +110,7 @@ header
         position: relative
         transition: color .5s ease
         cursor: pointer
+        text-decoration: none
         &:hover
             color: $accent
             &::before
@@ -134,7 +135,7 @@ header
         &:nth-child(6)
             grid-column: 4
             grid-row: 2/4
-
+            
 
 .buttoncase
     grid-column: 1/5
@@ -262,4 +263,19 @@ input, textarea
         font-weight: 800
         color: #494D50
         margin-top: 20px
+
+
+/* ........... INNER PAGES ............ */
+
+.inner_content
+    background: #e6fff7
+
+.inner_page
+    padding: 20px    
+    .back_link
+        color: #000
+
+    p
+        font-size: 18px
+        
 @import "media" // Всегда в конце
